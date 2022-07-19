@@ -4,6 +4,8 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import pickle
+from sklearn.neighbors import DistanceMetric
+import sklearn
 
 ### lode the iris data
 data = pd.read_csv("iris.csv")
